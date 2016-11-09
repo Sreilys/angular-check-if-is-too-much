@@ -1,5 +1,11 @@
 (function () {
 
-  angular.module('LunchCheck', []);
+'use strict';
+
+angular.module('LunchCheck', [])
+
+.controller("LunchCheckController", ['$scope', function ($scope) {
+
+}]);
 
 })();
